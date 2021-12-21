@@ -15,7 +15,7 @@ import com.app.service.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService prodService;
-	
+	  
 	//show product with empty object
 	@RequestMapping(value ="/")
 	public String showReg(Model model) {
